@@ -1,5 +1,4 @@
 name: Workflow Demo
-
 on: [push]
 
 jobs:
@@ -36,4 +35,5 @@ jobs:
     - name: Display hello text content
       run: | 
             cat ./artifacts/hello.txt
+
 
